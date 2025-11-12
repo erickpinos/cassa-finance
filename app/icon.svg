@@ -1,0 +1,17 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black background -->
+  <rect width="32" height="32" fill="#000000"/>
+  
+  <!-- Subtle grid pattern -->
+  <defs>
+    <pattern id="grid" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M 4 0 L 0 0 0 4" fill="none" stroke="#1a1a1a" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="32" height="32" fill="url(#grid)"/>
+  
+  <!-- Bold Pink/Magenta "C" with rounded edges -->
+  <path d="M 22 8 C 18.5 8 16 10.5 16 14 L 16 18 C 16 21.5 18.5 24 22 24" stroke="#FF1493" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M 16 14 L 10 14" stroke="#FF1493" stroke-width="3.5" stroke-linecap="round"/>
+</svg>
+
